@@ -11,21 +11,28 @@ body {
 }
 
 .container {
-    height: 400px;
-    width: 360px;
+    height: 450px;
+    width: 400px;
     margin: 8% auto;
     background-color: rgba(48, 31, 110, 0.699);
-    border-radius: 5px;
+    border-radius: 10px;
     position: relative;
     overflow: hidden;
-    padding-top: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
-h2,
-h3 {
+h2{
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 20px 20px 5px 20px;
 }
 
 .container form {
@@ -34,6 +41,15 @@ h3 {
     top: 100px;
     left: 40px;
     transition: 0.5s;
+    margin:auto;
+}
+.forminfo{
+    margin:auto;
+    padding:20px;
+    align:center;
+    display:block;
+    font-weight: 500;
+    width:100%;
 }
 
 form input {
@@ -60,17 +76,20 @@ form input {
 }
 
 .btn-box button {
-    width: 110px;
+    width: 40%;
     height: 35px;
-    margin: 0 10px;
+    margin: auto;
     background: linear-gradient(to right, #6a67e763, #8adbe4, #d0e2e4);
     border-radius: 30px;
     border: none;
     outline: 0;
     color: rgb(151, 58, 105);
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 16px;
+    display:inline-block;
+    position: relative;
+   
 }
 
 #form2,
@@ -113,4 +132,10 @@ form input {
     right: -20px;
     top: 0;
     border-left: 20px solid #d0e2e4;
+}
+.help a{
+    color:#fff;
+    margin:auto;
+    display:block;
+    width:100%;
 }
